@@ -1,2 +1,129 @@
-# Auto detect text files and perform LF normalization
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Este site é o trabalho do Christiano">
+    <meta name="keywords" content="Trabalho, Projeto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Christiano</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 85%;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 30px;
+            margin: 40px 0 15px 60px; 
+            text-align: left;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        img {
+            width: 300px;
+            border-radius: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 16px;
+        }
+        .content-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .text-right {
+            flex: 1;
+            padding-right: 30px;
+        }
+        .text-left {
+            flex: 1;
+            padding-left: 30px;
+        }
+        .saiba-mais-btn {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 25px;
+            border-radius: 30px;
+            margin: 20px auto;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .saiba-mais-btn:hover {
+            background-color: #808080;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+        .btn-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <hr>  
+        <h1>Cristiano Ronaldo: O Ídolo do Futebol</h1>
+        <hr>  
+        <br>   
+        <h2>Sobre mim</h2>
+        <br>
+            
+        <div class="content-row">
+            <div class="text-right">
+                <p>Cristiano Ronaldo dos Santos Aveiro nasceu em 5 de fevereiro de 1985, na cidade de Funchal, na Ilha da Madeira, Portugal. De origens humildes, filho de Maria Dolores dos Santos e José Dinis Aveiro, Ronaldo mostrou talento para o futebol desde criança. Aos 8 anos, ingressou no Andorinha, time amador onde seu pai trabalhava, e depois transferiu-se para o Nacional. Com 12 anos, fez testes no Sporting CP de Lisboa, que ficou impressionado com seu talento.</p>
+                
+                <p>Sua carreira profissional começou no Sporting CP em 2002, onde rapidamente se destacou. Em 2003, durante um amistoso contra o Manchester United, impressionou tanto o técnico Alex Ferguson que foi contratado por £12.24 milhões. No United, Ronaldo evoluiu extraordinariamente, conquistando três Premier Leagues, uma Champions League e seu primeiro Ballon d'Or em 2008.</p>
+            </div>
+            <img src="https://th.bing.com/th/id/R.5d2874558d703accd4c36ee90657eaf9?rik=kH9%2bAUfW5DDdng&pid=ImgRaw&r=0" alt="Christiano">
+        </div>
+        
+        <div class="content-row">
+            <img src="https://s.rfi.fr/media/display/ad767256-12ce-11ea-9bc6-005056bf7c53/w:1280/p:4x3/2014-01-13T201442Z_802193489_GM1EA1E0BQD01_RTRMADP_3_SOCCER-AWARDS.jpg" alt="Cristiano Ronaldo">
+            <div class="text-left">
+                <p>Em 2009, transferiu-se para o Real Madrid por um então recorde mundial de €94 milhões. No clube espanhol, tornou-se o maior artilheiro da história do clube com 450 gols em 438 jogos, conquistando quatro Champions Leagues e mais quatro Bolas de Ouro. Em 2018, mudou-se para a Juventus, onde continuou quebrando recordes antes de retornar ao Manchester United em 2021 e depois seguir para o Al-Nassr na Arábia Saudita em 2023.</p>
+                
+                <p>Pela seleção portuguesa, Ronaldo é o jogador com mais jogos e mais gols (128 gols em 205 jogos até 2023). Conduziu Portugal à vitória na Eurocopa 2016 e na Liga das Nações 2019. Conhecido por sua disciplina férrea, ética de trabalho inigualável e habilidade de marcar gols em qualquer situação, Ronaldo é considerado um dos maiores jogadores de todos os tempos, tendo vencido 5 Bolas de Ouro e estabelecido inúmeros recordes ao longo de sua carreira.</p>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <a href="https://pt.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank" class="saiba-mais-btn">Saiba Mais</a>
+        </div>
+        
+        <hr>
+        <footer>© Todos os direitos reservados - Christiano Ronaldo - 2025</footer><br>
+        <hr>
+    </div>
+</body>
+</html># Auto detect text files and perform LF normalization
 * text=auto
